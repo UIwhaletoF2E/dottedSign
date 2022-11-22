@@ -5,7 +5,8 @@ Week 2 - 今晚，我想來點點簽
 
 ### 資料夾說明
 1. CSS: 內含主要樣式，其他樣式則使用 Cdn 外連 Bootstrap
-2. js： 主要檔案為 main.js 使用選擇或拖拉方式上傳檔案 input 行為撰寫，後續功能亦會撰寫於此。其他動態互動需要的 js 使用 B
+2. js： 主要檔案為 main.js 使用選擇或拖拉方式上傳檔案 input 行為撰寫，後續功能亦會撰寫於此。
+        其他動態互動需要的 js 使用 Bootstrap 5
 
 ### 使用技術
 Bootstrap 5: 前端框架，部分新的 component 及規則重新適應中

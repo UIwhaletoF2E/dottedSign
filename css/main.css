@@ -20,6 +20,9 @@ body.defualt, body.nav-doc {
 body.nav-sign,body.nav-setting {
     background-image: url(../img/bg-desktop-2.png);   
 }
+main {
+    position: relative;
+}
 /* button */
 button {    
     border: none;
@@ -243,6 +246,16 @@ input.edit-name:focus {
     border-radius: 4px;
     filter: grayscale(0);
 }
+
+/* footer */
+.copy-right {
+    mix-blend-mode: difference;
+    color: #FFF;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
 #selectColor {
     width: 20px;
     height: 20px;

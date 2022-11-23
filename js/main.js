@@ -17,7 +17,7 @@ $(document).ready(function() {
     var dragUpload = function() {
     	//drag image and update
     	$('#select-file-text').click(function(e) {
-    	    $('#get_file').click();
+    	    //$('#get_file').click();
     	    $('input#get_file').change(function(e){
     	        var imgName = e.target.files[0].name;
     	        $("#update-name-img").append("<img src='img/icon-img.svg' alt='img'> <b>已選擇圖片</b>"
@@ -25,7 +25,7 @@ $(document).ready(function() {
     	    });
     	});
     	$('#select-pdf-text').click(function(e) {
-    	    $('#get_pdf').click();
+    	    //$('#get_pdf').click();
     	    $('input#get_pdf').change(function(e){
     	        var pdfName = e.target.files[0].name;
     	        $("#update-name-pdf").append("<img src='img/icon-pdf.svg' alt='pdf'> <b>已選擇檔案</b>"
